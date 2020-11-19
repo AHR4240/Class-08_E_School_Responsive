@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    flex: 0 0 auto;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.container{
+    width: calc(100% - 400px);
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/************ banner-section ************/
+.banner-section{
+    background: #F0FFF0;
+}
+header{
+    padding: 20px 0;
+}
+.logo{
+    width: 18%;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 82%;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #000000ba;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: block;
+    transition-duration: 0.3s;
+}
+nav ul li a:hover{
+    background: #21B573;
+    color: #fffffff0;;
+}
+
+
+.banner-content{
+    width: 40%;
+    padding-right: 15px;
+    margin-top: 40px;
+}
+.banner-content h5{
+    color: #ff2323db;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+}
+.banner-content h1{
+    font-size: 55px;
+    line-height: 1.2;
+    margin: 18px 0;
+}
+.banner-content h1 span{
+    color: #21B573;
+}
+p{
+    color: #403d3d;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.button{
+    color: #000000ba;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    margin-top: 20px;
+    background: #21B573;
+    color: #fffffff0;
+}
+.button:hover{}
+    
+.banner-image {
+    width: 60%;
+    padding: 0px 25px;
+    margin-top: 30px;
+}
+.banner-image img{}
+
+/************ feature-section ************/
+
+.features-section{
+    padding: 35px 0;
+}
+.col-4{
+    width: 25%;
+    padding: 20px;
+}
+.features{
+    background: #F0FFF0;
+    text-align: center;
+    padding: 45px 35px;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+.features:hover{
+    box-shadow: 5px 10px 25px 0px #0000003d;
+    background: #fff;
+}
+.features img{
+    height: 75px;
+}
+.features h3{
+    font-size: 20px;
+    color: #000000ba;
+    letter-spacing: 1px;
+    margin: 10px 0 5px;
+}
+.features p{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+/************ course-section ************/
+
+.course-section{}
+.heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.heading h2{
+    font-size: 35px;
+}
+.col-3{
+    width: 33.33%;
+    padding: 15px;
+}
+.course{
+    box-shadow: 5px 10px 25px 0px #0000003d;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+}
+.course img{}
+.course h3{
+    font-size: 20px;
+    color: #000000ba;
+    margin: 10px 0 5px;
+}
+.course span{
+    font-size: 16px;
+    letter-spacing: .5px;
+    display: block;
+}
+.course .button{       
+    color: #000000ba;       
+    font-size: 16px;
+    font-weight: 500;        
+    padding: 6px 15px;       
+    display: inline-block;       
+    border-radius: 30px;
+    transition-duration: 0.3s;       
+    margin-top: 10px;        
+    background: #21B573;
+        
+    color: #fffffff0;
+}
+.course ul{
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.course ul li{font-size: 15px;color: #505050;}
+.course ul li i{}
+
+/************ testimonial-section ***********/
+
+.testimonial-section{
+    padding: 15px 0;
+}
+.testimonial-section .heading{
+    text-align: center;
+    margin-bottom: 50px 0;
+}
+.testimonial-section h2{margin-top: 20px;}
+.client-img{
+    width: 15%;
+    padding: 15px;
+}
+.client-img img{}
+.client-content{
+    width: 60%;
+    padding: 15px;
+}
+.client-content p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.testimonial-section .flex{
+    justify-content: center;
+    align-items: center;
+}
+/************ footer-section ***********/
+
+footer{
+    background: #191818f5;
+    padding-top: 50px;
+}
+.col-4-2nd{
+    width: 25%;
+}
+footer p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+footer ul{}
+footer ul li{}
+footer ul li strong{
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 0px;
+    display: block;
+}
+footer ul li a{
+        color: #fff;
+    padding: 1px 0;
+    display: block;
+}
+footer ul li a:hover{}
+.copyright{
+    font-size: 18px;
+    padding: 30px 10px;
+    text-align: center;
+}
+.copyright a{
+    color: #21B573;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.copyright a:hover{
+        color: #ff6601;
+}
